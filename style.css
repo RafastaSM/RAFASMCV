@@ -1,0 +1,430 @@
+* {
+    margin: 0px
+}
+
+body {
+    background-color: rgb(45, 45, 45);
+    color: rgb(255, 255, 255);
+    font-family: 'Open Sans', sans-serif;
+}
+
+img {
+    border: 4px solid rgb(110, 187, 128);
+    border-radius: 10px;
+    padding: 5px;
+    margin: 4px;
+}
+
+header {
+    background-color: rgb(45, 45, 45);
+
+    color: white;
+    width: 100%;
+    height: 300px;
+    display: flex;
+
+    padding: 0px;
+    justify-items: flex-start;
+    align-items: center;
+
+
+}
+
+header img {
+    height: 80%;
+    border-radius: 50%;
+
+}
+
+#name {
+
+
+    display: flex;
+    flex-direction: column;
+    padding-right: 50px;
+    padding-left: 20px;
+
+}
+
+#name h1 {
+    font-size: 50px;
+    border-bottom: 5px solid rgb(110, 187, 128);
+    padding-bottom: 5px;
+
+    margin-bottom: 0px;
+
+}
+
+#name h2 {
+    font-size: 30px;
+    margin-top: 15px;
+}
+
+#contactinfo img {
+    width: 30px;
+    height: 30px;
+    border: none;
+    border-radius: 0px;
+
+
+}
+
+#contactinfo {
+    justify-self: flex-end;
+    align-self: flex-end;
+}
+
+#contactinfo h2 {
+    color: rgb(110, 187, 128);
+}
+
+#contactinfo div {
+    font-size: 15px;
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+
+}
+
+
+
+
+#generalcontainer {
+    display: flex;
+    width: 100%;
+    height: 300vh;
+
+    justify-content: flex-start;
+    align-items: flex-start;
+}
+
+#infocontainer {
+
+    background-color: whitesmoke;
+
+    border-right: 50px solid rgb(45, 45, 45);
+    color: black;
+    height: 250vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: flex-end;
+
+}
+
+#infocontainer h2 {
+    color: rgb(110, 187, 128);
+}
+
+
+
+#navcontainer {
+    width: 20%;
+    height: 100vh;
+    font-size: 20px;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-content: flex-start;
+
+}
+
+#navcontainer a {
+
+    text-decoration: none;
+    color: white;
+
+}
+
+#navcontainer div {
+    background-color: rgb(40, 40, 40);
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+    border-right: 5px solid rgb(110, 187, 128);
+    padding: 20px 10px;
+}
+
+#navcontainer div:hover {
+    background-color: rgb(104, 104, 104);
+    border-right: 2px solid rgb(255, 255, 255);
+    padding: 40px 10px;
+    margin-right: 10px;
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+
+.main {
+    width: 50%;
+    height: 100%;
+    padding: 50px;
+    border: 5px solid rgb(110, 187, 128);
+    border-radius: 10%;
+
+
+    background-color: rgb(45, 45, 45);
+    color: white;
+}
+
+.main h2 {
+    color: rgb(110, 187, 128);
+    font-size: 25px;
+
+}
+
+.left {
+    align-self: flex-start;
+    border-top-left-radius: 0%;
+    border-bottom-left-radius: 0%;
+
+}
+
+#aboutsocialcontainer {
+    display: flex;
+    justify-content: space-between;
+}
+
+#about {
+    width: 50%;
+    height: 80vh;
+
+}
+
+#about p {
+    margin: 10px 100px 10px 0px;
+    padding: 10px 40px;
+
+}
+
+.contentleft {
+    border-left: 3px solid rgb(110, 187, 128);
+    text-align: left;
+    padding-left: 20px;
+    margin-left: 0px;
+
+}
+
+#socialmedia img {
+    background-color: rgba(45, 45, 45, 0);
+    ;
+    width: 120px;
+    height: 120px;
+    border-radius: 10%;
+    padding: 10px;
+    margin: 10px;
+
+}
+
+#socialmedia a {
+    background-color: rgba(45, 45, 45, 0);
+    border: none;
+    padding: 10px;
+}
+
+#socialmedia a:hover {
+    background-color: rgb(104, 104, 104);
+    border: none;
+
+
+}
+
+#socialmedia {
+    height: 60%;
+    width: 30%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-content: center;
+    align-self: center;
+}
+
+.right {
+    align-self: flex-end;
+    border-top-right-radius: 0%;
+    border-bottom-right-radius: 0%;
+}
+
+#workexperiencebanner {
+    width: 70%;
+    height: 5vh;
+    background-color: rgb(45, 45, 45);
+    color: rgb(110, 187, 128);
+    font-size: 30px;
+    padding: 10px;
+    margin: 20px 0px;
+    border-top-left-radius: 20px;
+    border-bottom-left-radius: 20px;
+
+    display: flex;
+    align-items: center;
+    justify-content: flex-start;
+    border: 3px solid rgb(110, 187, 128);
+    border-right: 0px;
+}
+
+#workexperiencebanner img {
+    width: 30px;
+    height: 30px;
+    border: none;
+}
+
+#workexperience {
+    width: 95%;
+    background-color: rgb(212, 212, 212);
+    border: none;
+    color: black;
+    border-radius: 30px;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 5px;
+    padding-right: 5px;
+}
+
+.descriptionbox {
+    background-color: rgb(45, 45, 45);
+    color: white;
+    width: 40%;
+    height: 30vh;
+    border-radius: 50px;
+    margin: 10px;
+    padding: 25px;
+    display: flex;
+    flex-direction: column;
+    align-items: stretch;
+    justify-content: space-around;
+}
+
+.Place {
+    font-size: 40px;
+    font-weight: lighter;
+
+}
+
+.position {
+    font-size: 30px;
+    font-weight: lighter;
+}
+
+.jobposition {
+    border-bottom: 5px solid rgb(110, 187, 128);
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+
+}
+
+.jobname {
+    width: 50%;
+
+}
+
+.date {
+    width: 30%;
+
+    text-align: center;
+    font-size: 25px;
+
+
+}
+
+.abstract {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.abstract img {
+    width: 80%;
+    border: none;
+    margin: 0px;
+    padding: 10px 15px 10px 15px;
+}
+
+.abstract a {
+    padding: 10px;
+    text-align: center;
+}
+
+.abstract a:hover {
+    padding: 0px;
+    background-color: rgb(104, 104, 104);
+    border-radius: 20px;
+}
+
+.abstract p {
+    font-size: 16px;
+    margin: 5px, 10px, 5px, 10px;
+    border-left: 3px solid rgb(110, 187, 128);
+    padding-left: 5px;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    padding-right: 0px;
+}
+
+.completework {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    margin-top: 50px;
+
+}
+
+
+
+.jobskills ul {
+    border-left: 4px solid rgb(110, 187, 128);
+    padding-left: 50px;
+    margin-left: 50px;
+    font-size: 20px;
+
+}
+
+#intuitiveskills {
+    align-self: flex-start;
+}
+
+#autonomy {
+    display: flex;
+    flex-direction: row-reverse;
+    justify-content: space-between;
+    align-items: center;
+
+}
+
+#autonomy a {
+    color: rgb(110, 187, 128);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#autonomybox {
+    height: 40vh;
+    width: 50%;
+    justify-self: flex-start;
+}
+
+#autonomyskills {
+    align-self: center;
+    padding-left: 5px;
+    margin-left: 0px;
+
+
+
+}
+
+#shurikenbox {
+    height: 40vh;
+    width: 50%;
+}
+
+#shuriken a {
+    color: rgb(110, 187, 128);
+    font-size: 25px;
+    text-decoration: none;
+}
+
+#shuriken {
+    margin-top: 50px;
+}
