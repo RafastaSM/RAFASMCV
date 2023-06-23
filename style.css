@@ -92,7 +92,7 @@ header img {
 #generalcontainer {
     display: flex;
     width: 100%;
-    height: 300vh;
+    height: 350vh;
 
     justify-content: flex-start;
     align-items: flex-start;
@@ -104,7 +104,7 @@ header img {
 
     border-right: 50px solid rgb(45, 45, 45);
     color: black;
-    height: 250vh;
+    height: 300vh;
     display: flex;
     flex-direction: column;
     justify-content: flex-start;
@@ -157,7 +157,7 @@ header img {
 
 .main {
     width: 50%;
-    height: 100%;
+    height: 200vh;
     padding: 50px;
     border: 5px solid rgb(110, 187, 128);
     border-radius: 10%;
@@ -187,7 +187,7 @@ header img {
 
 #about {
     width: 50%;
-    height: 80vh;
+    height: 90vh;
 
 }
 
@@ -304,6 +304,7 @@ header img {
 .position {
     font-size: 30px;
     font-weight: lighter;
+
 }
 
 .jobposition {
@@ -316,7 +317,10 @@ header img {
 }
 
 .jobname {
-    width: 50%;
+
+    width: 80%;
+    margin: 0px;
+    padding: 0px;
 
 }
 
@@ -400,7 +404,7 @@ header img {
 }
 
 #autonomybox {
-    height: 40vh;
+    height: 50vh;
     width: 50%;
     justify-self: flex-start;
 }
@@ -415,7 +419,7 @@ header img {
 }
 
 #shurikenbox {
-    height: 40vh;
+    height: 54vh;
     width: 50%;
 }
 
